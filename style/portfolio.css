@@ -1,0 +1,94 @@
+links {
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    padding: 10px;
+}
+.main-section {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.image-button {
+   background-image: url('/style/Waithira.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 30px;
+   color:rgb(255, 255, 255);
+   width: 800px;
+   height: 800px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+.PORTFOLIO 1 {
+    text-align: center;
+}
+
+button {
+    background-color:rgb(250, 222, 191);
+    color:whitesmoke;
+    border: whitesmoke solid 1px;
+    padding: 30px;
+    font-size: 16px;
+    justify-content: space-evenly;
+}
+
+button:hover {
+    background-color:rgb(250, 225, 215);
+    color: pink;
+    border: gold solid 1px;
+    justify-content: space-around;
+}
+
+header h1 {
+    justify-content: space-evenly;
+    color: black;
+    text-decoration: whitesmoke;
+    font-size: 45px;
+}
+
+body {
+    background-color: rgb(211, 191, 173);
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', Arial; 
+}
+
+
+button a{
+    text-decoration: none;
+    color: rgb(4, 41, 255);
+    
+}
+ 
+button a:hover {
+    justify-content: space-around;
+
+}
+
+div .portfolio-element {
+    font-size: 25px;
+    color: black;
+    justify-content: center;
+    padding: 0px;
+}
+
+.portfolio-element:hover {
+    justify-content: center;
+    border: rgb(211, 191, 173) solid 2px; 
+}
+
+
+
+footer{
+    padding: 20px;
+    background-color: rgb(211, 191, 173);
+    text-align: center;
+    font-size: 20px;
+
+}
