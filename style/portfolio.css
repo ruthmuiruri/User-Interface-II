@@ -45,44 +45,45 @@ button:hover {
     border: gold solid 1px;
     justify-content: space-around;
 }
-
-header h1 {
-    justify-content: space-evenly;
-    color: black;
-    text-decoration: whitesmoke;
-    font-size: 45px;
-}
-
-body {
-    background-color: rgb(211, 191, 173);
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', Arial; 
-}
-
-
-button a{
-    text-decoration: none;
-    color: rgb(4, 41, 255);
+@media(min-width:768px){
+    header h1 {
+        justify-content: space-evenly;
+        color: black;
+        text-decoration: whitesmoke;
+        font-size: 45px;
+    }
+    
+    body {
+        background-color: rgb(211, 191, 173);
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', Arial; 
+    }
+    
+    
+    button a{
+        text-decoration: none;
+        color: rgb(4, 41, 255);
+        
+    }
+     
+    button a:hover {
+        justify-content: space-around;
+    
+    }
+    
+    div .portfolio-element {
+        font-size: 25px;
+        color: black;
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    .portfolio-element:hover {
+        justify-content: center;
+        border: rgb(211, 191, 173) solid 2px; 
+    }
     
 }
- 
-button a:hover {
-    justify-content: space-around;
-
-}
-
-div .portfolio-element {
-    font-size: 25px;
-    color: black;
-    justify-content: center;
-    padding: 0px;
-}
-
-.portfolio-element:hover {
-    justify-content: center;
-    border: rgb(211, 191, 173) solid 2px; 
-}
-
 
 
 footer{
